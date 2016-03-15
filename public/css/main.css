@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  background: url('../images/Tnt/angle-outside.jpg');
+  background: url('../images/Tnt/angle-outside.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -276,7 +276,8 @@ body {
 }
 .boxy {
   background-color: rgba(77,9,20,0.75);
-  height: 370px;
+  height: 400px;
+  padding-bottom: 100px;
 }
 .marketing h2 {
   font-weight: normal;
@@ -308,6 +309,32 @@ body {
   height: 100vh;
   width: 80vw;
 }
+.mobilepdf {
+  height: 0vh;
+  width: 0vw;
+}
+.menu-pic {
+   height: 0vh;
+   width: 0vw;
+}
+.hide {
+  opacity: 1;
+}
+@media (max-width: 800px) {
+  .pdf-style {
+  height: 0vh;
+  width: 0vw;
+}
+  .mobilepdf {
+    height: 50vh;
+    width: 50vw;
+  }
+  .menu-pic {
+     height: 100vh;
+     width: 100vw;
+  }
+
+}
 
 
 
@@ -315,6 +342,7 @@ body {
 .about-box {
   width: 80vw;
   height: 90vh;
+  padding-bottom: 10px;
 }
 
 /* GALLERY */
@@ -370,12 +398,6 @@ footer {
   right: 0;
 }
 
-@media (max-width: 600px) {
-  footer {
-    position: relative;
-  }
-
-}
 
 .img-padding {
   display: inline-block;
