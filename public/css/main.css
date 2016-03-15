@@ -250,9 +250,15 @@ body {
 }
 #map {
   margin: 0 auto;
-  width: 300px;
+  width: 350px;
   height: 220px;
  
+}
+
+@media (max-width: 400px) {
+  #map {
+    width: 270px;
+  }
 }
 
 
